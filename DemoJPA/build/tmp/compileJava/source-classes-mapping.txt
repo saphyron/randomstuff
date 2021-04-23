@@ -1,0 +1,38 @@
+dk/howard/DemoApplication.java
+ dk.howard.DemoApplication
+dk/howard/domain/User.java
+ dk.howard.domain.User
+dk/howard/repository/Mapper.java
+ dk.howard.repository.Mapper
+dk/howard/resource/UserResource.java
+ dk.howard.resource.UserResource
+dk/howard/repository/entity/UserTestPO.java
+ dk.howard.repository.entity.UserTestPO
+dk/howard/domain/Age.java
+ dk.howard.domain.Age
+dk/howard/repository/entitymanager/EntityManagerProducer.java
+ dk.howard.repository.entitymanager.EntityManagerProducer
+dk/howard/resource/dto/CreateUserDTO.java
+ dk.howard.resource.dto.CreateUserDTO
+dk/howard/repository/entitymanager/DemoEntityManager.java
+ dk.howard.repository.entitymanager.DemoEntityManager
+dk/howard/repository/entitymanager/JpaStarter.java
+ dk.howard.repository.entitymanager.JpaStarter
+dk/howard/repository/entity/UserPO.java
+ dk.howard.repository.entity.UserPO
+dk/howard/domain/Name.java
+ dk.howard.domain.Name
+dk/howard/service/Service.java
+ dk.howard.service.Service
+dk/howard/domain/Id.java
+ dk.howard.domain.Id
+dk/howard/resource/Mapper.java
+ dk.howard.resource.Mapper
+dk/howard/domain/IDen.java
+ dk.howard.domain.IDen
+dk/howard/resource/dto/UserDTO.java
+ dk.howard.resource.dto.UserDTO
+dk/howard/repository/Repository.java
+ dk.howard.repository.Repository
+dk/howard/Main.java
+ dk.howard.Main
