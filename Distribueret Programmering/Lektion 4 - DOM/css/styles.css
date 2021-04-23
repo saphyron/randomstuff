@@ -1,0 +1,35 @@
+img { height: 200px;
+width: 200px;}
+
+#grid_container { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+p {
+    color: black;
+}
+
+a{
+    color: red;
+}
+
+#farverød {
+    color: red;
+}
+
+table {
+    width: 500;
+}
+
+.fill {
+    font-size: 100%;
+    color: black;
+}
+
+a.fill {
+    color: royalblue;
+}

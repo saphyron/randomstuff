@@ -1,0 +1,10 @@
+div p {color: #000;}
+
+div > p {color: orange;}
+
+div + p {color: blue;}
+
+a:visited {color: fuchsia;}
+
+p:hover {font-weight: bold;}
+

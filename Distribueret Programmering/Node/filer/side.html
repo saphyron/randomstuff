@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Opgave 3</title>
+  <meta name="description" content="Opgave 3">
+  <meta name="author" content="John Høeg">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <form action="/modtaget" method="post">
+        Username:
+        <input type="text" name="username">
+        Password:
+        <input type="text" name="password">
+        <input type="submit" value="Send data">
+    </form>
+    <div>
+        <h1>Brætspil: Kryds og Bolle</h1>
+    </div>
+    <div id="grid_container">
+        <table>
+            <tr>
+                <td><img src="images/kryds_og_bolle1.PNG" ></td>
+                <td><p>Brættet er ni felter (3x3), og hver spiller skiftes til at
+                    placere en kryds/bolle. Den der først når tre på stribe vinder.
+                    Spillet afsluttes senest når alle felter er udfyldt eller man
+                    kan nøjes med tre brikker hver, således at man efter at have
+                    sat den tredje brik skiftes til at flytte en af sine egne brikker.
+                </p></td>
+            </tr>
+            <tr>
+                <td><img src="images/kryds_og_bolle2.PNG" ></td>
+                <td><p>Hvis begge spillere spiller bedst muligt, vil spillet altid
+                    ende uafgjort, dvs. ingen af spillerne opnår tre på stribe.
+                </p></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a href="https://da.wikipedia.org/wiki/Kryds_og_bolle">Kryds og bolle - wikipedia, den frie encyklopædi</a></td>
+            </tr>
+        </table>
+    </div>
+    <a a href="index.html" class="fill">Return</a>
+    <p id=navn></p>
+    <script>
+        fetch('http://localhost:8081/post').then(data=>{
+            return data.json()
+        }).then(obj =>{
+            console.log(obj)
+            document.getElementById('navn').innerHTML = obj[0].age
+        })
+    </script>
+    <script src="JS/test.js" defer></script>
+</body>
+</html>
