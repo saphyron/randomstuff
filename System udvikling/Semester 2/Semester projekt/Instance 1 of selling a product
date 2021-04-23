@@ -1,0 +1,146 @@
+Elaboration_MainApp
+package application;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+
+public class Elaboration_MainApp {
+
+    public static void main(String[] args) {
+        Produkt p1 = new Produkt("Pilsner", 40, 35);
+        Produkt p2 = new Produkt("Juleøl", 60, 45);
+        
+        ArrayList<Produkt> indkøbskurv = new ArrayList<>();
+        indkøbskurv.add(p1);
+        indkøbskurv.add(p2);
+        
+        Kvittering k1 = new Kvittering(1, null, LocalDate.now(), indkøbskurv, true);
+        k1.tilføjTransaktion(p1);
+        k1.tilføjTransaktion(p2);
+        System.out.println("Total pris inklusiv moms: " + k1.getSalgsPris() + " af " +
+                p1.getNavn() + " og " + p2.getNavn());
+        
+
+    }
+
+}
+
+Kvittering
+package application;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+
+public class Kvittering {
+    private int salgsNummer;
+    private double salgsPris;
+    private String betallingsmetode;
+    private LocalDate dato;
+    private ArrayList<Regnskab> regnskab;
+    private ArrayList<Produkt> produkter;
+    private ArrayList<Kunde> kunder;
+    private boolean salgIBar;
+        
+    public Kvittering(int salgsNummer, String betallingsmetode, LocalDate dato, ArrayList<Produkt> produkter, boolean salgIBar) {
+        this.salgsNummer = salgsNummer;
+        this.betallingsmetode = betallingsmetode;
+        this.dato = dato;
+        this.salgIBar = salgIBar;
+    }
+    public int getSalgsNummer() {
+        return salgsNummer;
+    }
+    public void setSalgsNummer(int salgsNummer) {
+        this.salgsNummer = salgsNummer;
+    }
+    public double getSalgsPris() {
+        return salgsPris;
+    }
+    public String getBetallingsmetode() {
+        return betallingsmetode;
+    }
+    public void setBetallingsmetode(String betallingsmetode) {
+        this.betallingsmetode = betallingsmetode;
+    }
+    public LocalDate getDato() {
+        return dato;
+    }
+    public void setDato(LocalDate dato) {
+        this.dato = dato;
+    }
+    
+    public void tilføjTransaktion(Produkt produkt) {
+        if (salgIBar) {
+            this.salgsPris = this.salgsPris + produkt.getBarPris() * produkt.getMomsProcent();
+        } else {
+            this.salgsPris = this.salgsPris + produkt.getButiksPris() * produkt.getMomsProcent();
+        }
+
+    }
+
+    public void tilFøjTransaktion(Produkt produkt, Kunde kunde) {
+        
+    }
+    
+    
+    
+}
+
+Produkt
+package application;
+
+public class Produkt {
+    
+    private double butiksPris;
+    private double barPris;
+    private static double momsProcent = 1.25;
+    private String navn;
+    
+    public Produkt(String navn, double barPris, double butiksPris) {
+        this.navn = navn;
+        if(butiksPris == 0) {
+            this.barPris = barPris;
+        } else if(barPris == 0) {
+            this.butiksPris = butiksPris;
+        } else {
+            this.barPris = barPris;
+            this.butiksPris = butiksPris;
+        }
+    }
+
+    public double getButiksPris() {
+        return butiksPris;
+    }
+
+    public void setButiksPris(double butiksPris) {
+        this.butiksPris = butiksPris;
+    }
+
+    public double getBarPris() {
+        return barPris;
+    }
+
+    public void setBarPris(double barPris) {
+        this.barPris = barPris;
+    }
+
+    public String getNavn() {
+        return navn;
+    }
+
+    public void setNavn(String navn) {
+        this.navn = navn;
+    }
+
+    public static double getMomsProcent() {
+        return momsProcent;
+    }
+
+    @Override
+    public String toString() {
+        return "Produkt: " + navn;
+    }
+    
+    
+
+}

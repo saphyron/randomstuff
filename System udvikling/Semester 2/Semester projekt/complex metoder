@@ -1,0 +1,11 @@
+private void tilføjProduktTilProduktTreeMap(ProduktType produktType, Produkt produkt) {
+	
+	if (!produktTreeMap.containsKey(produktType)) {
+		produktTreeMap.put(produktType, new TreeSet<Produkt>());
+		produktTreeMap.get(produktType).add(produkt);
+	}
+	else {
+		produktTreeMap.get(produktType).add(produkt);
+	}
+}	
+
