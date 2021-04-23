@@ -1,0 +1,32 @@
+{
+  "name": "free-spirit",
+  "version": "0.0.1",
+  "description": "This is a server applet to be used by the instructors and other personnel in Free Spirit Pilates",
+  "main": "Server/app.js",
+  "scripts": {
+    "test": "mocha 'test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThorHen/FreeSpiritProjekt.git"
+  },
+  "author": "Free Spirited Developers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThorHen/FreeSpiritProjekt/issues"
+  },
+  "homepage": "https://github.com/ThorHen/FreeSpiritProjekt#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bcrypt": "^4.0.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "firebase-admin": "^8.11.0",
+    "mocha": "^7.1.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "pug": "^2.0.4"
+  }
+}

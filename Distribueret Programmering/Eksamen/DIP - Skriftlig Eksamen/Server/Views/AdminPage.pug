@@ -1,0 +1,13 @@
+include header
+  include ../css/Admin.css
+body
+  include burger
+  .users
+    h4 Brugere
+    ul(id='userlist')
+      each element in users
+        li= element
+  .buttons
+    button(type='button', onclick="window.location.href='/opretbruger'", id='Opret') Opret bruger
+    button(type='button', onclick='editUser()', id='Rediger') Rediger bruger
+    button(type='Button', onclick='deleteUser()', id='Slet') Slet Bruger

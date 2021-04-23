@@ -1,0 +1,41 @@
+img { height: 200px;
+    width: 200px;}
+    
+    table {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        border-style: solid;
+        list-style-type: none;
+        }        
+    
+    p {
+        color: black;
+    }
+    
+    a{
+        color: red;
+    }
+    
+    #farverød {
+        color: red;
+    }
+    
+    table {
+        width: 500;
+    }
+    
+    .fill {
+        font-size: 100%;
+        color: black;
+    }
+    
+    a.fill {
+        color: royalblue;
+    }
+
+    .selected{
+        background: #4CAF50;
+    }

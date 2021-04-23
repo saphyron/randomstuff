@@ -1,0 +1,8 @@
+include header
+  include ../css/forside.css
+body
+  .users
+    h4 Brugere
+    ul(id='userlist')
+      each element in users
+        li= element
