@@ -1,0 +1,57 @@
+﻿@model IEnumerable<USB_Web.Models.produkter>
+
+@{
+    ViewBag.Title = "OrderPage";
+}
+
+<h2>OrderPage</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Navn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Depositum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Doegnpris)
+        </th>
+        <th></th>
+    </tr>
+    @using (Html.BeginForm())
+    {
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.CheckBox("isActive", false)
+                    @Html.DisplayFor(modelItem => item.Navn)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Depositum)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Doegnpris)
+                </td>
+            </tr>
+
+        }
+<tr>
+    <td width="200">
+        @Html.Label("AfhentningsDato:")
+        @Html.TextBox(" ")
+    </td>
+    <td width="200">
+        @Html.Label("Antal Døgn:")
+        @Html.TextBox(" ")
+    </td>
+</tr>
+        <tr>
+            <td>
+                <input type="submit" value="Opret Order" />
+            </td>
+        </tr>
+    }
+
+</table>

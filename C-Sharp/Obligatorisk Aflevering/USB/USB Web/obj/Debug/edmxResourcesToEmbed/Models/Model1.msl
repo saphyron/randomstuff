@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="USBModelStoreContainer" CdmEntityContainer="USBEntities">
+    <EntitySetMapping Name="kunde">
+      <EntityTypeMapping TypeName="USBModel.kunde">
+        <MappingFragment StoreEntitySet="kunde">
+          <ScalarProperty Name="KundeNummer" ColumnName="KundeNummer" />
+          <ScalarProperty Name="Navn" ColumnName="Navn" />
+          <ScalarProperty Name="Addresse" ColumnName="Addresse" />
+          <ScalarProperty Name="EMail" ColumnName="EMail" />
+          <ScalarProperty Name="Brugernavn" ColumnName="Brugernavn" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="produkter">
+      <EntityTypeMapping TypeName="USBModel.produkter">
+        <MappingFragment StoreEntitySet="produkter">
+          <ScalarProperty Name="ProduktID" ColumnName="ProduktID" />
+          <ScalarProperty Name="Navn" ColumnName="Navn" />
+          <ScalarProperty Name="Doegnpris" ColumnName="Doegnpris" />
+          <ScalarProperty Name="Depositum" ColumnName="Depositum" />
+          <ScalarProperty Name="Beskrivelse" ColumnName="Beskrivelse" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="udlejning">
+      <EntityTypeMapping TypeName="USBModel.udlejning">
+        <MappingFragment StoreEntitySet="udlejning">
+          <ScalarProperty Name="UdlejningsNummer" ColumnName="UdlejningsNummer" />
+          <ScalarProperty Name="KundeNr" ColumnName="KundeNr" />
+          <ScalarProperty Name="PID" ColumnName="PID" />
+          <ScalarProperty Name="ProduktStatus" ColumnName="ProduktStatus" />
+          <ScalarProperty Name="Afhentningstidspunkt" ColumnName="Afhentningstidspunkt" />
+          <ScalarProperty Name="AntalDoegn" ColumnName="AntalDoegn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

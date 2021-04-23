@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d0de3eb88dbe456ea1fb13d49712236a" Name="Diagram1">
+        <EntityTypeShape EntityType="USBModel.kunde" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="USBModel.produkter" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="USBModel.udlejning" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="USBModel.FK__udlejning__Kunde__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="USBModel.FK__udlejning__PID__6FE99F9F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

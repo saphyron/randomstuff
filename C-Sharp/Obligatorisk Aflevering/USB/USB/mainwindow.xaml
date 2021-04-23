@@ -1,0 +1,44 @@
+﻿<Window x:Class="USB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:USB"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800"
+        Loaded="Window_Loaded">
+    <Grid>
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="14,32,0,0" Name="cBoxKunde" VerticalAlignment="Top" Width="120" SelectionChanged="cBoxKunde_SelectionChanged" />
+        <Label Content="Kunde" Height="28" HorizontalAlignment="Left" Margin="11,4,0,0" Name="Kunde" VerticalAlignment="Top" />
+        <Label Content="Specific Udlejning" Height="28" HorizontalAlignment="Left" Margin="402,65,0,0" Name="Specific_Udlejning" VerticalAlignment="Top" />
+        <Label Content="Udlejninger" Height="28" HorizontalAlignment="Left" Margin="11,65,0,0" Name="Udlejninger" VerticalAlignment="Top" />
+        <DataGrid AutoGenerateColumns="False" Height="218" HorizontalAlignment="Left" Margin="14,89,0,0" Name="dataGrid1" VerticalAlignment="Top" Width="378" SelectionChanged="datagridgetData"/>
+        <Button Content="Opret Bruger" Height="23" HorizontalAlignment="Left" Name="Opret_Bruger" Click="opret_bruger" Margin="14,321,0,0" Width="100" VerticalAlignment="Top"/>
+        <Button Content="Rediger Bruger" Height="23" HorizontalAlignment="Left" Name="Rediger_Bruger" Click="rediger_bruger" Margin="119,321,0,0" Width="100" VerticalAlignment="Top"/>
+        <Button Content="Rediger Udlejning" Height="23" HorizontalAlignment="Left" Name="Rediger_Udlejning" Click="rediger_udlejning" Margin="406,256,0,0" VerticalAlignment="Top"/>
+        
+        <Label Content="KundeNummer:" Height="23" HorizontalAlignment="Left" Name="KundeNummer" Margin="406,94,0,0" VerticalAlignment="Top"/>
+        <TextBox Text="" Height="22" HorizontalAlignment="Left" Name="KundeNummerText" Margin="528,94,0,0" Width="200" VerticalAlignment="Top"/>
+        <Label Content="ProduktID:" Height="23" HorizontalAlignment="Left" Name="ProduktID" Margin="406,117,0,0" VerticalAlignment="Top"/>
+        <TextBox Text="" Height="22" HorizontalAlignment="Left" Name="ProduktIDText" Margin="528,117,0,0" Width="200" VerticalAlignment="Top"/>
+        <Label Content="AfhentningsDato:" Height="23" HorizontalAlignment="Left" Name="AfhentningsDato" Margin="406,141,0,0" VerticalAlignment="Top"/>
+        <TextBox Text="" Height="22" HorizontalAlignment="Left" Name="AfhentningsDatoText" Margin="528,141,0,0" Width="200" VerticalAlignment="Top"/>
+        <Label Content="ProduktStatus:" Height="23" HorizontalAlignment="Left" Name="ProduktStatus" Margin="406,168,0,0" VerticalAlignment="Top"/>
+        <ComboBox Height="22" HorizontalAlignment="Left" Name="ProduktStatusBox" Margin="528,169,0,0" Width="200" VerticalAlignment="Top"/>
+        <Label Content="Antal Døgn:" Height="23" HorizontalAlignment="Left" Name="AntalDoegn" Margin="406,192,0,0" VerticalAlignment="Top"/>
+        <TextBox Text="" Height="22" HorizontalAlignment="Left" Name="AntalDoegnText" Margin="528,192,0,0" Width="200" VerticalAlignment="Top"/>
+        <Label Content="Produkt:" Height="23" HorizontalAlignment="Left" Name="Produktnavn" Margin="406,216,0,0" VerticalAlignment="Top"/>
+        <ComboBox Height="22" HorizontalAlignment="Left" Name="ProduktNavnBox" Margin="528,216,0,0" Width="200" VerticalAlignment="Top"/>
+
+        <Label Content="Navn:" Height="23" HorizontalAlignment="Left" Name="KundeNavn" Margin="14,360,0,0" VerticalAlignment="Top"/>
+        <TextBox Text="" Height="22" HorizontalAlignment="Left" Name="KundeNavnText" Margin="100,360,0,0" Width="200" VerticalAlignment="Top"/>
+        <Label Content="Addresse:" Height="23" HorizontalAlignment="Left" Name="KundeAddresse" Margin="14,384,0,0" VerticalAlignment="Top"/>
+        <TextBox Text="" Height="22" HorizontalAlignment="Left" Name="KundeAddresseText" Margin="100,384,0,0" Width="200" VerticalAlignment="Top"/>
+        <Label Content="E-Mail:" Height="23" HorizontalAlignment="Left" Name="KundeEmail" Margin="14,408,0,0" VerticalAlignment="Top"/>
+        <TextBox Text="" Height="22" HorizontalAlignment="Left" Name="KundeEmailText" Margin="100,408,0,0" Width="200" VerticalAlignment="Top"/>
+        <Label Content="Brugernavn:" Height="23" HorizontalAlignment="Left" Name="KundeBrugerNavn" Margin="14,432,0,0" VerticalAlignment="Top"/>
+        <TextBox Text="" Height="22" HorizontalAlignment="Left" Name="KundeBrugerNavnText" Margin="100,432,0,0" Width="200" VerticalAlignment="Top"/>
+        <Label Content="Password:" Height="23" HorizontalAlignment="Left" Name="KundePassword" Margin="14,456,0,0" VerticalAlignment="Top"/>
+        <TextBox Text="" Height="22" HorizontalAlignment="Left" Name="KundePasswordText" Margin="100,456,0,0" Width="200" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

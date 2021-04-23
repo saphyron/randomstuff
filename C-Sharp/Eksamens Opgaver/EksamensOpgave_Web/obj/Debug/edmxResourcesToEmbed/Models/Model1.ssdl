@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="USBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="bydning">
+    <Key>
+      <PropertyRef Name="bydningsNr" />
+    </Key>
+    <Property Name="bydningsNr" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KundeNr" Type="int" />
+    <Property Name="PiID" Type="int" />
+    <Property Name="budt" Type="bit" />
+  </EntityType>
+  <EntityType Name="kunde">
+    <Key>
+      <PropertyRef Name="KundeNummer" />
+    </Key>
+    <Property Name="KundeNummer" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Navn" Type="varchar" MaxLength="30" />
+    <Property Name="EMail" Type="varchar" MaxLength="30" />
+    <Property Name="Brugernavn" Type="varchar" MaxLength="30" />
+    <Property Name="Telefon" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="produkter">
+    <Key>
+      <PropertyRef Name="ProduktID" />
+    </Key>
+    <Property Name="ProduktID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MetalType" Type="varchar" MaxLength="30" />
+    <Property Name="Maengde" Type="varchar" MaxLength="30" />
+    <Property Name="Bud" Type="float" />
+    <Property Name="Auktionsfrist" Type="datetime" />
+    <Property Name="KundeNr" Type="int" />
+  </EntityType>
+  <Association Name="FK__bydning__KundeNr__68487DD7">
+    <End Role="kunde" Type="Self.kunde" Multiplicity="0..1" />
+    <End Role="bydning" Type="Self.bydning" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kunde">
+        <PropertyRef Name="KundeNummer" />
+      </Principal>
+      <Dependent Role="bydning">
+        <PropertyRef Name="KundeNr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__bydning__PiID__693CA210">
+    <End Role="produkter" Type="Self.produkter" Multiplicity="0..1" />
+    <End Role="bydning" Type="Self.bydning" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="produkter">
+        <PropertyRef Name="ProduktID" />
+      </Principal>
+      <Dependent Role="bydning">
+        <PropertyRef Name="PiID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__produkter__Kunde__656C112C">
+    <End Role="kunde" Type="Self.kunde" Multiplicity="0..1" />
+    <End Role="produkter" Type="Self.produkter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kunde">
+        <PropertyRef Name="KundeNummer" />
+      </Principal>
+      <Dependent Role="produkter">
+        <PropertyRef Name="KundeNr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="USBModelStoreContainer">
+    <EntitySet Name="bydning" EntityType="Self.bydning" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="kunde" EntityType="Self.kunde" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="produkter" EntityType="Self.produkter" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__bydning__KundeNr__68487DD7" Association="Self.FK__bydning__KundeNr__68487DD7">
+      <End Role="kunde" EntitySet="kunde" />
+      <End Role="bydning" EntitySet="bydning" />
+    </AssociationSet>
+    <AssociationSet Name="FK__bydning__PiID__693CA210" Association="Self.FK__bydning__PiID__693CA210">
+      <End Role="produkter" EntitySet="produkter" />
+      <End Role="bydning" EntitySet="bydning" />
+    </AssociationSet>
+    <AssociationSet Name="FK__produkter__Kunde__656C112C" Association="Self.FK__produkter__Kunde__656C112C">
+      <End Role="kunde" EntitySet="kunde" />
+      <End Role="produkter" EntitySet="produkter" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

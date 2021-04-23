@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="USBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="kunde">
+    <Key>
+      <PropertyRef Name="KundeNummer" />
+    </Key>
+    <Property Name="KundeNummer" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Navn" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Addresse" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="EMail" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Brugernavn" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="udlejning" Relationship="Self.FK__udlejning__Kunde__6EF57B66" FromRole="kunde" ToRole="udlejning" />
+  </EntityType>
+  <EntityType Name="produkter">
+    <Key>
+      <PropertyRef Name="ProduktID" />
+    </Key>
+    <Property Name="ProduktID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Navn" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Doegnpris" Type="Double" />
+    <Property Name="Depositum" Type="Double" />
+    <Property Name="Beskrivelse" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="udlejning" Relationship="Self.FK__udlejning__PID__6FE99F9F" FromRole="produkter" ToRole="udlejning" />
+  </EntityType>
+  <EntityType Name="udlejning">
+    <Key>
+      <PropertyRef Name="UdlejningsNummer" />
+    </Key>
+    <Property Name="UdlejningsNummer" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KundeNr" Type="Int32" />
+    <Property Name="PID" Type="Int32" />
+    <Property Name="ProduktStatus" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Afhentningstidspunkt" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="AntalDoegn" Type="Int32" />
+    <NavigationProperty Name="kunde" Relationship="Self.FK__udlejning__Kunde__6EF57B66" FromRole="udlejning" ToRole="kunde" />
+    <NavigationProperty Name="produkter" Relationship="Self.FK__udlejning__PID__6FE99F9F" FromRole="udlejning" ToRole="produkter" />
+  </EntityType>
+  <Association Name="FK__udlejning__Kunde__6EF57B66">
+    <End Role="kunde" Type="Self.kunde" Multiplicity="0..1" />
+    <End Role="udlejning" Type="Self.udlejning" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kunde">
+        <PropertyRef Name="KundeNummer" />
+      </Principal>
+      <Dependent Role="udlejning">
+        <PropertyRef Name="KundeNr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__udlejning__PID__6FE99F9F">
+    <End Role="produkter" Type="Self.produkter" Multiplicity="0..1" />
+    <End Role="udlejning" Type="Self.udlejning" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="produkter">
+        <PropertyRef Name="ProduktID" />
+      </Principal>
+      <Dependent Role="udlejning">
+        <PropertyRef Name="PID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="USBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="kunde" EntityType="Self.kunde" />
+    <EntitySet Name="produkter" EntityType="Self.produkter" />
+    <EntitySet Name="udlejning" EntityType="Self.udlejning" />
+    <AssociationSet Name="FK__udlejning__Kunde__6EF57B66" Association="Self.FK__udlejning__Kunde__6EF57B66">
+      <End Role="kunde" EntitySet="kunde" />
+      <End Role="udlejning" EntitySet="udlejning" />
+    </AssociationSet>
+    <AssociationSet Name="FK__udlejning__PID__6FE99F9F" Association="Self.FK__udlejning__PID__6FE99F9F">
+      <End Role="produkter" EntitySet="produkter" />
+      <End Role="udlejning" EntitySet="udlejning" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

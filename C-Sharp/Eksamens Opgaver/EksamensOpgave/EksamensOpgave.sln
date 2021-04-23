@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksamensOpgave", "EksamensOpgave.csproj", "{E17981D3-7A39-41A8-B9FF-2CB64D586A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EksamensOpgave_Web", "..\EksamensOpgave_Web\EksamensOpgave_Web.csproj", "{33FD2BCE-28ED-4BE3-82FB-FE7FCE41817A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E17981D3-7A39-41A8-B9FF-2CB64D586A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17981D3-7A39-41A8-B9FF-2CB64D586A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17981D3-7A39-41A8-B9FF-2CB64D586A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17981D3-7A39-41A8-B9FF-2CB64D586A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FD2BCE-28ED-4BE3-82FB-FE7FCE41817A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FD2BCE-28ED-4BE3-82FB-FE7FCE41817A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FD2BCE-28ED-4BE3-82FB-FE7FCE41817A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FD2BCE-28ED-4BE3-82FB-FE7FCE41817A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D7B0D23-F3D9-4F13-8986-DF12A1667049}
+	EndGlobalSection
+EndGlobal

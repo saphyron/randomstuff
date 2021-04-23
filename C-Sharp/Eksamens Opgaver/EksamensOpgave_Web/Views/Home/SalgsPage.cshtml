@@ -1,0 +1,58 @@
+﻿@model IEnumerable<EksamensOpgave_Web.Models.produkter>
+@{
+    ViewBag.Title = "SalgsPage";
+}
+
+<h2>SalgsPage</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProduktID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MetalType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Maengde)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Bud)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Auktionsfrist)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KundeNr)
+        </th>
+    </tr>
+    @using (Html.BeginForm())
+    {
+        foreach (var item in Model)
+        {
+            
+<tr>
+    <td>
+        
+        @Html.DisplayFor(modelitem => item.ProduktID)
+    </td>
+    <td>
+        @Html.DisplayFor(modelitem => item.MetalType)
+    </td>
+    <td>
+        @Html.DisplayFor(modelitem => item.Maengde)
+    </td>
+    <td>
+        @Html.DisplayFor(modelitem => item.Bud)
+    </td>
+    <td>
+        @Html.DisplayFor(modelitem => item.Auktionsfrist)
+    </td>
+    <td>
+        @Html.DisplayFor(modelitem => item.KundeNr)
+    </td>
+</tr>
+        }
+    }
+</table>
+

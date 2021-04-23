@@ -1,0 +1,21 @@
+﻿<Window x:Class="EksamensOpgave.CreateUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EksamensOpgave"
+        mc:Ignorable="d"
+        Title="Window2" Height="200" Width="500">
+    <Grid>
+        <TextBox Text="" Height="22" HorizontalAlignment="Center" Name="Navn" Margin="0,2,0,0" Width="200" VerticalAlignment="Top" />
+        <Label Content="Navn:" Height="24" Name="navn" Margin="-245,0,0,0" Width="40" VerticalAlignment="Top"/>
+        <TextBox Text="" Height="22" HorizontalAlignment="Center" Name="Email" Margin="0,30,0,0" Width="200" VerticalAlignment="Top" />
+        <Label Content="E-Mail:" Height="24" Name="email" Margin="-250,30,0,0" Width="45" VerticalAlignment="Top"/>
+        <TextBox Text="" Height="22" HorizontalAlignment="Center" Name="BrugerNavn" Margin="0,60,0,0" Width="200" VerticalAlignment="Top" />
+        <Label Content="Brugernavn:" Height="24" Name="Brugernavn" Margin="-275,60,0,0" Width="75" VerticalAlignment="Top"/>
+        <TextBox Text="" Height="22" Name="Telefon" Margin="0,90,0,0" Width="200" VerticalAlignment="Top" />
+        <Label Content="Telefon Nummer:" Height="24" Name="telefon" Margin="-300,90,0,0" Width="100" VerticalAlignment="Top"/>
+        <Button Content="Opret Bruger" Height="23" HorizontalAlignment="Center" Name="Opret_Bruger" Width="100" Click="createUser" Margin="-100,120,0,0" VerticalAlignment="Top"/>
+        <Button Content="Tilbage" Height="23" HorizontalAlignment="Center" Name="Tilbage" Width="100" Click="tilbage" Margin="100,120,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

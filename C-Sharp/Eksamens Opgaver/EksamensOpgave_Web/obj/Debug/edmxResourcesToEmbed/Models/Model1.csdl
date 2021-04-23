@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="USBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="bydning">
+    <Key>
+      <PropertyRef Name="bydningsNr" />
+    </Key>
+    <Property Name="bydningsNr" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KundeNr" Type="Int32" />
+    <Property Name="PiID" Type="Int32" />
+    <Property Name="budt" Type="Boolean" />
+    <NavigationProperty Name="kunde" Relationship="Self.FK__bydning__KundeNr__68487DD7" FromRole="bydning" ToRole="kunde" />
+    <NavigationProperty Name="produkter" Relationship="Self.FK__bydning__PiID__693CA210" FromRole="bydning" ToRole="produkter" />
+  </EntityType>
+  <EntityType Name="kunde">
+    <Key>
+      <PropertyRef Name="KundeNummer" />
+    </Key>
+    <Property Name="KundeNummer" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Navn" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="EMail" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Brugernavn" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Telefon" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="bydning" Relationship="Self.FK__bydning__KundeNr__68487DD7" FromRole="kunde" ToRole="bydning" />
+    <NavigationProperty Name="produkter" Relationship="Self.FK__produkter__Kunde__656C112C" FromRole="kunde" ToRole="produkter" />
+  </EntityType>
+  <EntityType Name="produkter">
+    <Key>
+      <PropertyRef Name="ProduktID" />
+    </Key>
+    <Property Name="ProduktID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MetalType" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Maengde" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Bud" Type="Double" />
+    <Property Name="Auktionsfrist" Type="DateTime" Precision="3" />
+    <Property Name="KundeNr" Type="Int32" />
+    <NavigationProperty Name="bydning" Relationship="Self.FK__bydning__PiID__693CA210" FromRole="produkter" ToRole="bydning" />
+    <NavigationProperty Name="kunde" Relationship="Self.FK__produkter__Kunde__656C112C" FromRole="produkter" ToRole="kunde" />
+  </EntityType>
+  <Association Name="FK__bydning__KundeNr__68487DD7">
+    <End Role="kunde" Type="Self.kunde" Multiplicity="0..1" />
+    <End Role="bydning" Type="Self.bydning" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kunde">
+        <PropertyRef Name="KundeNummer" />
+      </Principal>
+      <Dependent Role="bydning">
+        <PropertyRef Name="KundeNr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__bydning__PiID__693CA210">
+    <End Role="produkter" Type="Self.produkter" Multiplicity="0..1" />
+    <End Role="bydning" Type="Self.bydning" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="produkter">
+        <PropertyRef Name="ProduktID" />
+      </Principal>
+      <Dependent Role="bydning">
+        <PropertyRef Name="PiID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__produkter__Kunde__656C112C">
+    <End Role="kunde" Type="Self.kunde" Multiplicity="0..1" />
+    <End Role="produkter" Type="Self.produkter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kunde">
+        <PropertyRef Name="KundeNummer" />
+      </Principal>
+      <Dependent Role="produkter">
+        <PropertyRef Name="KundeNr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="USBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="bydning" EntityType="Self.bydning" />
+    <EntitySet Name="kunde" EntityType="Self.kunde" />
+    <EntitySet Name="produkter" EntityType="Self.produkter" />
+    <AssociationSet Name="FK__bydning__KundeNr__68487DD7" Association="Self.FK__bydning__KundeNr__68487DD7">
+      <End Role="kunde" EntitySet="kunde" />
+      <End Role="bydning" EntitySet="bydning" />
+    </AssociationSet>
+    <AssociationSet Name="FK__bydning__PiID__693CA210" Association="Self.FK__bydning__PiID__693CA210">
+      <End Role="produkter" EntitySet="produkter" />
+      <End Role="bydning" EntitySet="bydning" />
+    </AssociationSet>
+    <AssociationSet Name="FK__produkter__Kunde__656C112C" Association="Self.FK__produkter__Kunde__656C112C">
+      <End Role="kunde" EntitySet="kunde" />
+      <End Role="produkter" EntitySet="produkter" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

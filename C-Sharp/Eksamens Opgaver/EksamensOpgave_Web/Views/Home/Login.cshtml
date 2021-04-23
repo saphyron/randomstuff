@@ -1,0 +1,32 @@
+﻿@model EksamensOpgave_Web.Models.kunde
+
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+<div>
+    <h4>User</h4>
+    <hr />
+
+
+    @using (Html.BeginForm())
+    {
+        <fieldset>
+
+            <legend>Log ind </legend>
+
+            @Html.ValidationSummary(true)
+
+            <div>
+                @Html.LabelFor(model => model.Brugernavn)
+                @Html.TextBoxFor(model => model.Brugernavn)
+            </div>
+
+            <input type="submit" value="Log Ind" />
+        </fieldset>
+    }
+
+</div> 

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="USBModelStoreContainer" CdmEntityContainer="USBEntities">
+    <EntitySetMapping Name="bydning">
+      <EntityTypeMapping TypeName="USBModel.bydning">
+        <MappingFragment StoreEntitySet="bydning">
+          <ScalarProperty Name="bydningsNr" ColumnName="bydningsNr" />
+          <ScalarProperty Name="KundeNr" ColumnName="KundeNr" />
+          <ScalarProperty Name="PiID" ColumnName="PiID" />
+          <ScalarProperty Name="budt" ColumnName="budt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="kunde">
+      <EntityTypeMapping TypeName="USBModel.kunde">
+        <MappingFragment StoreEntitySet="kunde">
+          <ScalarProperty Name="KundeNummer" ColumnName="KundeNummer" />
+          <ScalarProperty Name="Navn" ColumnName="Navn" />
+          <ScalarProperty Name="EMail" ColumnName="EMail" />
+          <ScalarProperty Name="Brugernavn" ColumnName="Brugernavn" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="produkter">
+      <EntityTypeMapping TypeName="USBModel.produkter">
+        <MappingFragment StoreEntitySet="produkter">
+          <ScalarProperty Name="ProduktID" ColumnName="ProduktID" />
+          <ScalarProperty Name="MetalType" ColumnName="MetalType" />
+          <ScalarProperty Name="Maengde" ColumnName="Maengde" />
+          <ScalarProperty Name="Bud" ColumnName="Bud" />
+          <ScalarProperty Name="Auktionsfrist" ColumnName="Auktionsfrist" />
+          <ScalarProperty Name="KundeNr" ColumnName="KundeNr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

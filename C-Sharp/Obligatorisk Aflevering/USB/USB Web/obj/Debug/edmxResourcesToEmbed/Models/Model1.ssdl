@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="USBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="kunde">
+    <Key>
+      <PropertyRef Name="KundeNummer" />
+    </Key>
+    <Property Name="KundeNummer" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Navn" Type="varchar" MaxLength="30" />
+    <Property Name="Addresse" Type="varchar" MaxLength="30" />
+    <Property Name="EMail" Type="varchar" MaxLength="30" />
+    <Property Name="Brugernavn" Type="varchar" MaxLength="30" />
+    <Property Name="Password" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="produkter">
+    <Key>
+      <PropertyRef Name="ProduktID" />
+    </Key>
+    <Property Name="ProduktID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Navn" Type="varchar" MaxLength="30" />
+    <Property Name="Doegnpris" Type="float" />
+    <Property Name="Depositum" Type="float" />
+    <Property Name="Beskrivelse" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'USB.dbo.statustable' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="statustable">
+          <Property Name="StatusT" Type="varchar" MaxLength="30" />
+        </EntityType>-->
+  <EntityType Name="udlejning">
+    <Key>
+      <PropertyRef Name="UdlejningsNummer" />
+    </Key>
+    <Property Name="UdlejningsNummer" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KundeNr" Type="int" />
+    <Property Name="PID" Type="int" />
+    <Property Name="ProduktStatus" Type="varchar" MaxLength="30" />
+    <Property Name="Afhentningstidspunkt" Type="varchar" MaxLength="30" />
+    <Property Name="AntalDoegn" Type="int" />
+  </EntityType>
+  <Association Name="FK__udlejning__Kunde__6EF57B66">
+    <End Role="kunde" Type="Self.kunde" Multiplicity="0..1" />
+    <End Role="udlejning" Type="Self.udlejning" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kunde">
+        <PropertyRef Name="KundeNummer" />
+      </Principal>
+      <Dependent Role="udlejning">
+        <PropertyRef Name="KundeNr" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__udlejning__PID__6FE99F9F">
+    <End Role="produkter" Type="Self.produkter" Multiplicity="0..1" />
+    <End Role="udlejning" Type="Self.udlejning" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="produkter">
+        <PropertyRef Name="ProduktID" />
+      </Principal>
+      <Dependent Role="udlejning">
+        <PropertyRef Name="PID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="USBModelStoreContainer">
+    <EntitySet Name="kunde" EntityType="Self.kunde" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="produkter" EntityType="Self.produkter" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="udlejning" EntityType="Self.udlejning" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__udlejning__Kunde__6EF57B66" Association="Self.FK__udlejning__Kunde__6EF57B66">
+      <End Role="kunde" EntitySet="kunde" />
+      <End Role="udlejning" EntitySet="udlejning" />
+    </AssociationSet>
+    <AssociationSet Name="FK__udlejning__PID__6FE99F9F" Association="Self.FK__udlejning__PID__6FE99F9F">
+      <End Role="produkter" EntitySet="produkter" />
+      <End Role="udlejning" EntitySet="udlejning" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

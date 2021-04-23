@@ -1,0 +1,40 @@
+C:\Users\Saphy\source\repos\USB\USB\obj\Debug\USB.csprojAssemblyReference.cache
+C:\Users\Saphy\source\repos\USB\USB\obj\Debug\MainWindow.g.cs
+C:\Users\Saphy\source\repos\USB\USB\obj\Debug\App.g.cs
+C:\Users\Saphy\source\repos\USB\USB\obj\Debug\USB_MarkupCompile.cache
+C:\Users\Saphy\source\repos\USB\USB\obj\Debug\USB_MarkupCompile.lref
+C:\Users\Saphy\source\repos\USB\USB\bin\Debug\USB.exe.config
+C:\Users\Saphy\source\repos\USB\USB\bin\Debug\USB.exe
+C:\Users\Saphy\source\repos\USB\USB\bin\Debug\USB.pdb
+C:\Users\Saphy\source\repos\USB\USB\bin\Debug\EntityFramework.dll
+C:\Users\Saphy\source\repos\USB\USB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Saphy\source\repos\USB\USB\bin\Debug\EntityFramework.xml
+C:\Users\Saphy\source\repos\USB\USB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Saphy\source\repos\USB\USB\obj\Debug\MainWindow.baml
+C:\Users\Saphy\source\repos\USB\USB\obj\Debug\USB.g.resources
+C:\Users\Saphy\source\repos\USB\USB\obj\Debug\USB.Properties.Resources.resources
+C:\Users\Saphy\source\repos\USB\USB\obj\Debug\USB.csproj.GenerateResource.cache
+C:\Users\Saphy\source\repos\USB\USB\obj\Debug\USB.csproj.CoreCompileInputs.cache
+C:\Users\Saphy\source\repos\USB\USB\obj\Debug\USB.csproj.CopyComplete
+C:\Users\Saphy\source\repos\USB\USB\obj\Debug\USB.exe
+C:\Users\Saphy\source\repos\USB\USB\obj\Debug\USB.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\obj\Debug\USB.csprojAssemblyReference.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\obj\Debug\MainWindow.g.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\obj\Debug\App.g.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\obj\Debug\USB_MarkupCompile.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\obj\Debug\USB_MarkupCompile.lref
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\obj\Debug\USB.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\obj\Debug\USB.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\obj\Debug\MainWindow.baml
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\obj\Debug\USB.g.resources
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\bin\Debug\USB.exe.config
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\bin\Debug\USB.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\bin\Debug\USB.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\bin\Debug\EntityFramework.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\bin\Debug\EntityFramework.xml
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\obj\Debug\USB.Properties.Resources.resources
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\obj\Debug\USB.csproj.GenerateResource.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\obj\Debug\USB.csproj.CoreCompileInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp obligatorisk aflevering\USB\USB\obj\Debug\USB.csproj.CopyComplete
