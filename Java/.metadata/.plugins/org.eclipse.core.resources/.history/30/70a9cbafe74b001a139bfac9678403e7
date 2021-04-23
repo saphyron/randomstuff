@@ -1,0 +1,14 @@
+package chatProgram;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class ReadNextLineTraad extends Thread{
+	String sentence;
+	
+	public void run() {
+		BufferedReader inFromServer = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package chatProgram;
+
+import java.net.*;
+import java.io.*;
+
+public class WriteNextLineTraad {
+	
+	Socket connSocket;
+	
+	public WriteNextLineTraad(Socket connSocket) {
+		this.connSocket = connSocket;
+	}
+
+	public void run() {
+
+		try {
+			
+		}	catch (IOException e) {
+				e.printStackTrace();
+			}}
+	}
+
+}

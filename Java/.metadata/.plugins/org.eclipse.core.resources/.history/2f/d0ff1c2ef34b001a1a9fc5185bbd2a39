@@ -1,0 +1,23 @@
+package chatProgram;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Server_chat_v2 {
+	
+	private static Socket connectionSocket;
+
+	public static void main(String[] args) throws Exception {
+		System.out.println("test for start");
+		ServerSocket welcomSocket = new ServerSocket(9002);
+		connectionSocket = welcomSocket.accept();
+	}
+	
+	public void runServer() {
+		WriteNextLineTraad writeTraad = new WriteNextLineTraad(connectionSocket);
+		ReadNextLineTraad readTraad = new ReadNextLineTraad(connectionSocket);
+		readTraad.start();
+		writeTraad.start();
+		welcomSocket.close();
+	}
+}

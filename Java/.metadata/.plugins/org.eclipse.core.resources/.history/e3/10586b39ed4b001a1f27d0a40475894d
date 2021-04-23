@@ -1,0 +1,11 @@
+package chatProgram;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Server_chat_v2 {
+	public static void main(String[] args) throws Exception {
+	ServerSocket welcomSocket = new ServerSocket(6789);
+	Socket connectionSocket = welcomSocket.accept();
+	}
+}

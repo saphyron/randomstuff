@@ -1,0 +1,29 @@
+package chatProgram;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.Socket;
+
+public class ReadNextLineTraad extends Thread{
+	String modifiedSentence;
+	Socket connSocket;
+
+	public ReadNextLineTraad(Socket connSocket) {
+		this.connSocket = connSocket;
+	}
+	
+	public void run() {
+		try {
+			BufferedReader inFromServer = new BufferedReader(new InputStreamReader(connSocket.getInputStream()));
+			while (true) {
+				modifiedSentence = inFromServer.readLine();
+				System.out.println("FROM SERVER: " + modifiedSentence);
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}

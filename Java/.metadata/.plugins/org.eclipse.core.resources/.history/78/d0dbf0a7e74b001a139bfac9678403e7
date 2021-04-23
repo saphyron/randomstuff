@@ -1,0 +1,10 @@
+package chatProgram;
+
+public class ReadNextLineTraad extends Thread{
+	String sentence;
+	
+	public void run() {
+		
+	}
+
+}

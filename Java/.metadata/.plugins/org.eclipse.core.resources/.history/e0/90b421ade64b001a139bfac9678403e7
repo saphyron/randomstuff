@@ -1,0 +1,17 @@
+package chatProgram;
+
+import java.net.Socket;
+
+public class WriteNextLineTraad {
+	
+	Socket connSocket;
+	
+	public WriteNextLineTraad(Socket connSocket) {
+		
+	}
+
+	public void run() {
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package chatProgram;
+
+public class WriteNextLineTraad {
+	
+	Socket connSocket;
+
+	public void run() {
+
+	}
+
+}

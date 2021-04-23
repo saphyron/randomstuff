@@ -1,0 +1,23 @@
+package chatProgram;
+
+import java.net.*;
+import java.io.*;
+
+public class WriteNextLineTraad {
+	String sentence;
+	Socket connSocket;
+
+	public WriteNextLineTraad(Socket connSocket) {
+		this.connSocket = connSocket;
+	}
+
+	public void run() {
+		BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));
+		DataOutputStream outToServer = new DataOutputStream(clientSocket.getOutputStream());
+		while (true) {
+			sentence = inFromUser.readLine();
+			outToServer.writeBytes(sentence + '\n');
+		}
+	}
+
+}

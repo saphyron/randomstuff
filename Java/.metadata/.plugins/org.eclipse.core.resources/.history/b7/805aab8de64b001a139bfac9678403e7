@@ -1,0 +1,9 @@
+package chatProgram;
+
+public class WriteNextLineTraad {
+
+	public void run() {
+
+	}
+
+}

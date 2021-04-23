@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;chatProgram.Chat_Program_UDP.java&apos; to &apos;Chat_Program_UDP_DNS.java&apos;&#x0D;&#x0A;- Original project: &apos;Socket_Progammering_Mini_Projekt&apos;&#x0D;&#x0A;- Original element: &apos;chatProgram.Chat_Program_UDP.java&apos;&#x0D;&#x0A;- Renamed element: &apos;chatProgram.Chat_Program_UDP_DNS.java&apos;" description="Rename compilation unit &apos;Chat_Program_UDP.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;chatProgram{Chat_Program_UDP.java" name="Chat_Program_UDP_DNS.java" references="false" stamp="1581927417389" version="1.0"/>
+</session>

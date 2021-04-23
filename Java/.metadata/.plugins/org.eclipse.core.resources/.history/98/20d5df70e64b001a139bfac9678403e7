@@ -1,0 +1,5 @@
+package chatProgram;
+
+public class ReadNextLineTraad extends Thread{
+
+}
