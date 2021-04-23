@@ -1,0 +1,15 @@
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Oneway\bin\Debug\Lektion 07 - Binding - Oneway.exe.config
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Oneway\bin\Debug\Lektion 07 - Binding - Oneway.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Oneway\bin\Debug\Lektion 07 - Binding - Oneway.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Oneway\obj\Debug\Lektion 07 - Binding - Oneway.csprojAssemblyReference.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Oneway\obj\Debug\MainWindow.g.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Oneway\obj\Debug\App.g.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Oneway\obj\Debug\Lektion 07 - Binding - Oneway_MarkupCompile.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Oneway\obj\Debug\Lektion 07 - Binding - Oneway_MarkupCompile.lref
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Oneway\obj\Debug\MainWindow.baml
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Oneway\obj\Debug\Lektion 07 - Binding - Oneway.g.resources
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Oneway\obj\Debug\Lektion_07___Binding___Oneway.Properties.Resources.resources
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Oneway\obj\Debug\Lektion 07 - Binding - Oneway.csproj.GenerateResource.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Oneway\obj\Debug\Lektion 07 - Binding - Oneway.csproj.CoreCompileInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Oneway\obj\Debug\Lektion 07 - Binding - Oneway.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Oneway\obj\Debug\Lektion 07 - Binding - Oneway.pdb

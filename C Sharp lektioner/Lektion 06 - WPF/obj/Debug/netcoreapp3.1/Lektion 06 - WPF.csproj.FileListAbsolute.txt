@@ -1,0 +1,12 @@
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 06 - WPF\bin\Debug\netcoreapp3.1\Lektion 06 - WPF.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 06 - WPF\bin\Debug\netcoreapp3.1\Lektion 06 - WPF.deps.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 06 - WPF\bin\Debug\netcoreapp3.1\Lektion 06 - WPF.runtimeconfig.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 06 - WPF\bin\Debug\netcoreapp3.1\Lektion 06 - WPF.runtimeconfig.dev.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 06 - WPF\bin\Debug\netcoreapp3.1\Lektion 06 - WPF.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 06 - WPF\bin\Debug\netcoreapp3.1\Lektion 06 - WPF.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 06 - WPF\obj\Debug\netcoreapp3.1\Lektion 06 - WPF.AssemblyInfoInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 06 - WPF\obj\Debug\netcoreapp3.1\Lektion 06 - WPF.AssemblyInfo.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 06 - WPF\obj\Debug\netcoreapp3.1\Lektion 06 - WPF.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 06 - WPF\obj\Debug\netcoreapp3.1\Lektion 06 - WPF.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 06 - WPF\obj\Debug\netcoreapp3.1\Lektion 06 - WPF.genruntimeconfig.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 06 - WPF\obj\Debug\netcoreapp3.1\Lektion 06 - WPF.csprojAssemblyReference.cache

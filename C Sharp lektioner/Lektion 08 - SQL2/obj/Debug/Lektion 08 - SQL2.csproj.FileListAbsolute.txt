@@ -1,0 +1,7 @@
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 08 - SQL2\bin\Debug\Lektion 08 - SQL2.exe.config
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 08 - SQL2\bin\Debug\Lektion 08 - SQL2.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 08 - SQL2\bin\Debug\Lektion 08 - SQL2.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 08 - SQL2\obj\Debug\Lektion 08 - SQL2.csprojAssemblyReference.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 08 - SQL2\obj\Debug\Lektion 08 - SQL2.csproj.CoreCompileInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 08 - SQL2\obj\Debug\Lektion 08 - SQL2.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 08 - SQL2\obj\Debug\Lektion 08 - SQL2.pdb

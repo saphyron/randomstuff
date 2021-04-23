@@ -1,0 +1,15 @@
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Opgave 1-4\bin\Debug\Lektion 07 - Binding - Opgave 1-4.exe.config
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Opgave 1-4\bin\Debug\Lektion 07 - Binding - Opgave 1-4.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Opgave 1-4\bin\Debug\Lektion 07 - Binding - Opgave 1-4.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Opgave 1-4\obj\Debug\MainWindow.g.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Opgave 1-4\obj\Debug\App.g.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Opgave 1-4\obj\Debug\Lektion 07 - Binding - Opgave 1-4_MarkupCompile.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Opgave 1-4\obj\Debug\Lektion 07 - Binding - Opgave 1-4_MarkupCompile.lref
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Opgave 1-4\obj\Debug\MainWindow.baml
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Opgave 1-4\obj\Debug\Lektion 07 - Binding - Opgave 1-4.g.resources
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Opgave 1-4\obj\Debug\Lektion_07___Binding___Opgave_1_4.Properties.Resources.resources
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Opgave 1-4\obj\Debug\Lektion 07 - Binding - Opgave 1-4.csproj.GenerateResource.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Opgave 1-4\obj\Debug\Lektion 07 - Binding - Opgave 1-4.csproj.CoreCompileInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Opgave 1-4\obj\Debug\Lektion 07 - Binding - Opgave 1-4.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Opgave 1-4\obj\Debug\Lektion 07 - Binding - Opgave 1-4.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 07 - Binding - Opgave 1-4\obj\Debug\Lektion 07 - Binding - Opgave 1-4.csprojAssemblyReference.cache

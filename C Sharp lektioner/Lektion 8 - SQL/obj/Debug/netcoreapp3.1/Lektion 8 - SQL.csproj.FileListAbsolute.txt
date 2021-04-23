@@ -1,0 +1,4 @@
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 8 - SQL\obj\Debug\netcoreapp3.1\Lektion 8 - SQL.csprojAssemblyReference.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 8 - SQL\obj\Debug\netcoreapp3.1\Lektion 8 - SQL.AssemblyInfoInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 8 - SQL\obj\Debug\netcoreapp3.1\Lektion 8 - SQL.AssemblyInfo.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\C-Sharp\C Sharp lektioner\Lektion 8 - SQL\obj\Debug\netcoreapp3.1\Lektion 8 - SQL.csproj.CoreCompileInputs.cache
