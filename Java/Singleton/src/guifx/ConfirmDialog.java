@@ -1,0 +1,89 @@
+package guifx;
+
+import javafx.geometry.HPos;
+import javafx.geometry.Insets;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.layout.GridPane;
+import javafx.scene.layout.Priority;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
+import javafx.stage.StageStyle;
+
+public class ConfirmDialog extends Stage
+{
+    public ConfirmDialog(String title, Stage owner)
+    {
+        this.initOwner(owner);
+        this.initStyle(StageStyle.UTILITY);
+        this.initModality(Modality.APPLICATION_MODAL);
+        this.setMinHeight(100);
+        this.setMinWidth(200);
+        this.setResizable(false);
+
+        this.setTitle(title);
+        GridPane pane = new GridPane();
+        this.initContent(pane);
+
+        Scene scene = new Scene(pane);
+        this.setScene(scene);
+    }
+
+    // -------------------------------------------------------------------------
+
+    private Label lblMessage;
+
+    private void initContent(GridPane pane)
+    {
+//        pane.setGridLinesVisible(true);
+        pane.setPadding(new Insets(20));
+        pane.setHgap(20);
+        pane.setVgap(20);
+
+        lblMessage = new Label();
+        pane.add(lblMessage, 0, 0, 2, 1);
+        GridPane.setHalignment(lblMessage, HPos.CENTER);
+        GridPane.setHgrow(lblMessage, Priority.ALWAYS);
+
+        Button btnOK = new Button("OK");
+        pane.add(btnOK, 0, 1);
+        btnOK.setPrefWidth(70);
+        btnOK.setOnAction(event -> this.okAction());
+
+        Button btnCancel = new Button("Cancel");
+        pane.add(btnCancel, 1, 1);
+        btnCancel.setPrefWidth(70);
+        btnCancel.setOnAction(event -> this.cancelAction());
+    }
+
+    // -------------------------------------------------------------------------
+
+    private boolean confirmed;
+
+    public boolean isConfirmed()
+    {
+        return confirmed;
+
+    }
+
+    public void initMessage(String text)
+    {
+        lblMessage.setText(text);
+    }
+
+    // -------------------------------------------------------------------------
+
+    private void okAction()
+    {
+        confirmed = true;
+        this.hide();
+    }
+
+    private void cancelAction()
+    {
+        confirmed = false;
+        this.hide();
+    }
+
+}

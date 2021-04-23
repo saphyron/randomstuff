@@ -1,0 +1,30 @@
+package interfaces;
+
+public class Chili implements Measurable{
+	
+	private String navn;
+	private double styrke;
+	public Chili(String navn, double styke) {
+		super();
+		this.navn = navn;
+		this.styrke = styke;
+	}
+	public String getNavn() {
+		return navn;
+	}
+	public void setNavn(String navn) {
+		this.navn = navn;
+	}
+	public double getStyke() {
+		return styrke;
+	}
+	public void setStyke(double styke) {
+		this.styrke = styke;
+	}
+	
+	public double getMeasure() {
+		double measure = this.styrke;
+		return measure;
+	}
+
+}

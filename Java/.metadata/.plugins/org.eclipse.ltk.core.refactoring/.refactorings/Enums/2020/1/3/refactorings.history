@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;application.Område.java&apos; to &apos;Omraade.java&apos;&#x0D;&#x0A;- Original project: &apos;Enums&apos;&#x0D;&#x0A;- Original element: &apos;application.Område.java&apos;&#x0D;&#x0A;- Renamed element: &apos;application.Omraade.java&apos;" description="Rename compilation unit &apos;Område.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;application{Område.java" name="Omraade.java" references="false" stamp="1579006670882" version="1.0"/>
+</session>

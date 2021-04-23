@@ -1,0 +1,21 @@
+package interfaces;
+
+import java.util.List;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		Measurable[] m = (Measurable[]) List.of(
+		new Chili("Test1", 500),
+		new Chili("Test2", 5000),
+		new Chili("Test3", 50000),
+		new Chili("Test4", 500000),
+		new Chili("Test5", 1000000),
+		new Chili("Test6", 2000000)
+		).toArray();
+		System.out.println(Data.max(m));
+		System.out.println(Data.avg(m));
+		
+	}
+
+}

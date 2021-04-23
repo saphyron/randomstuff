@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;interfaces.Measureble.java&apos; to &apos;Measurable.java&apos;&#x0D;&#x0A;- Original project: &apos;Interfaces&apos;&#x0D;&#x0A;- Original element: &apos;interfaces.Measureble.java&apos;&#x0D;&#x0A;- Renamed element: &apos;interfaces.Measurable.java&apos;" description="Rename compilation unit &apos;Measureble.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;interfaces{Measureble.java" name="Measurable.java" references="false" stamp="1578843581605" version="1.0"/>
+</session>
