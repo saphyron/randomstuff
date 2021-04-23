@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Obliatorisk_Opgave___Opgave_1_Graf</RootNamespace>
+  </PropertyGroup>
+
+</Project>

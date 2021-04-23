@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="45" key="DIALOG_X_ORIGIN"/>
+		<item value="120" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+		<item value="true" key="actionSetFilter"/>
+		<item value="true" key="uncategorizedFilter"/>
+		<item value="true" key="internalFilter"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="-1" key="dialogHeight"/>
+		<item value="-1" key="dialogWidth"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.jdt.ui.java/org.eclipse.jdt.junit"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.jdt.internal.ui.jarpackager.JarPackageWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.import.ZipFile" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\Saphy\OneDrive - EFIF\Aarhus Bryghus.jar"/>
+			<item value="C:\Users\Saphy\OneDrive - EFIF\JDBC_Daos.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Skabelon.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Architecture1stSem.jar"/>
+			<item value="C:\Users\Saphy\Downloads\UrObserverEksempel.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Peter_Andersen_Joakim_Dich_John_Høeg_rettet.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Ex1.jar"/>
+			<item value="C:\Users\Saphy\Downloads\test-projekt-17sep (2).jar"/>
+			<item value="C:\Users\Saphy\Downloads\test-projekt-17sep (1).jar"/>
+			<item value="C:\Users\Saphy\Downloads\test-projekt-17sep.jar"/>
+			<item value="C:\Users\Saphy\Downloads\JDBCEks19V.jar"/>
+			<item value="C:\Users\Saphy\Downloads\eaaa_dmu_pro-pro2_ordination_student-3b166a1083af.zip"/>
+			<item value="C:\Users\Saphy\Downloads\pro2_ordination_student.zip"/>
+			<item value="C:\Users\Saphy\Downloads\Bilforsikring.jar"/>
+			<item value="C:\Users\Saphy\Downloads\TestNoteKode.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Nedbør.jar"/>
+			<item value="C:\Users\Saphy\Downloads\FlettesorteringMedTODO.jar"/>
+			<item value="C:\Users\Saphy\OneDrive\Desktop\John_Hoeeg_19V_Semester1_proeve_juli_2019.jar"/>
+			<item value="C:\Users\Saphy\Downloads\lektion_34_-_fletninger.jar"/>
+			<item value="C:\Users\Saphy\Downloads\filer.jar"/>
+		</list>
+	</section>
+</section>

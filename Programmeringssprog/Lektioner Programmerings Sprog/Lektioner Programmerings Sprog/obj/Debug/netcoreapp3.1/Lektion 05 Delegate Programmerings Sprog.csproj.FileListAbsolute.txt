@@ -1,0 +1,13 @@
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\bin\Debug\netcoreapp3.1\Lektion 05 Delegate Programmerings Sprog.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\bin\Debug\netcoreapp3.1\Lektion 05 Delegate Programmerings Sprog.deps.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\bin\Debug\netcoreapp3.1\Lektion 05 Delegate Programmerings Sprog.runtimeconfig.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\bin\Debug\netcoreapp3.1\Lektion 05 Delegate Programmerings Sprog.runtimeconfig.dev.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\bin\Debug\netcoreapp3.1\Lektion 05 Delegate Programmerings Sprog.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\bin\Debug\netcoreapp3.1\Lektion 05 Delegate Programmerings Sprog.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\obj\Debug\netcoreapp3.1\Lektion 05 Delegate Programmerings Sprog.csprojAssemblyReference.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\obj\Debug\netcoreapp3.1\Lektion 05 Delegate Programmerings Sprog.AssemblyInfoInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\obj\Debug\netcoreapp3.1\Lektion 05 Delegate Programmerings Sprog.AssemblyInfo.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\obj\Debug\netcoreapp3.1\Lektion 05 Delegate Programmerings Sprog.csproj.CoreCompileInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\obj\Debug\netcoreapp3.1\Lektion 05 Delegate Programmerings Sprog.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\obj\Debug\netcoreapp3.1\Lektion 05 Delegate Programmerings Sprog.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\obj\Debug\netcoreapp3.1\Lektion 05 Delegate Programmerings Sprog.genruntimeconfig.cache

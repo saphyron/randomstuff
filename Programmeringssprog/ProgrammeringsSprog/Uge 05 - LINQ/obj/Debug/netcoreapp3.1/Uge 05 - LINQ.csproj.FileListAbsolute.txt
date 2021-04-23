@@ -1,0 +1,13 @@
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - LINQ\bin\Debug\netcoreapp3.1\Uge 05 - LINQ.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - LINQ\bin\Debug\netcoreapp3.1\Uge 05 - LINQ.deps.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - LINQ\bin\Debug\netcoreapp3.1\Uge 05 - LINQ.runtimeconfig.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - LINQ\bin\Debug\netcoreapp3.1\Uge 05 - LINQ.runtimeconfig.dev.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - LINQ\bin\Debug\netcoreapp3.1\Uge 05 - LINQ.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - LINQ\bin\Debug\netcoreapp3.1\Uge 05 - LINQ.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - LINQ\obj\Debug\netcoreapp3.1\Uge 05 - LINQ.csprojAssemblyReference.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - LINQ\obj\Debug\netcoreapp3.1\Uge 05 - LINQ.AssemblyInfoInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - LINQ\obj\Debug\netcoreapp3.1\Uge 05 - LINQ.AssemblyInfo.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - LINQ\obj\Debug\netcoreapp3.1\Uge 05 - LINQ.csproj.CoreCompileInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - LINQ\obj\Debug\netcoreapp3.1\Uge 05 - LINQ.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - LINQ\obj\Debug\netcoreapp3.1\Uge 05 - LINQ.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - LINQ\obj\Debug\netcoreapp3.1\Uge 05 - LINQ.genruntimeconfig.cache

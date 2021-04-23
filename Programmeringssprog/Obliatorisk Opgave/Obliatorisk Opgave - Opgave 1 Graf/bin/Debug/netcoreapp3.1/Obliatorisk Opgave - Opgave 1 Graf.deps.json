@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Obliatorisk Opgave - Opgave 1 Graf/1.0.0": {
+        "runtime": {
+          "Obliatorisk Opgave - Opgave 1 Graf.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Obliatorisk Opgave - Opgave 1 Graf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Storage.java&apos; to &apos;Intern_proeve_juli_20_2019/src/storage&apos;&#x0D;&#x0A;- Original project: &apos;Semesterprøve_test_22maj&apos;&#x0D;&#x0A;- Destination element: &apos;Intern_proeve_juli_20_2019/src/storage&apos;&#x0D;&#x0A;- Original element: &apos;storage.Storage.java&apos;" description="Copy compilation unit" destination="=Intern_proeve_juli_20_2019/src&lt;storage" element1="/src&lt;storage{Storage.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1561011590848" units="1" version="1.0"/>
+</session>

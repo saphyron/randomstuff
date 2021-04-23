@@ -1,0 +1,24 @@
+package resturant;
+
+public class Tjener extends Thread {
+
+	private LavBestilling bestilling;
+	private String navn;
+
+	public Tjener(LavBestilling lb, String navn) {
+		bestilling = lb;
+		this.navn = navn;
+	}
+
+	public void run() {
+		for (int i = 0; i < 20; i++) {
+			try {
+				sleep((int) (Math.random() * 1500));
+				System.out.print(this.navn);
+				bestilling.naesteBestilling();
+			} catch (InterruptedException e) {
+				System.out.println("Exception: " + e.getMessage());
+			}
+		}
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;skadeFrieæ&apos; in &apos;forsikring.Bilforsikring.beregnpræmie(...)&apos; to &apos;skadeFrieÅr&apos;&#x0D;&#x0A;- Original project: &apos;Lektion_06_JunitTest_Opgaver&apos;&#x0D;&#x0A;- Original element: &apos;forsikring.Bilforsikring.beregnpræmie(int, boolean, int).skadeFrieæ&apos;&#x0D;&#x0A;- Renamed element: &apos;skadeFrieæ&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;skadeFrieæ&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;forsikring{Bilforsikring.java[Bilforsikring~beregnpræmie~I~Z~I@skadeFrieæ!367!380!371!380!I!0!true" name="skadeFrieÅr" references="true" stamp="1568100112905" version="1.0"/>
+</session>

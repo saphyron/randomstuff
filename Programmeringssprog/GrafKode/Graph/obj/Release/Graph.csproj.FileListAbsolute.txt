@@ -1,0 +1,7 @@
+C:\Users\Saphy\Downloads\GrafKode\Graph\bin\Release\Graph.exe.config
+C:\Users\Saphy\Downloads\GrafKode\Graph\bin\Release\Graph.exe
+C:\Users\Saphy\Downloads\GrafKode\Graph\bin\Release\Graph.pdb
+C:\Users\Saphy\Downloads\GrafKode\Graph\obj\Release\Graph.csproj.CoreCompileInputs.cache
+C:\Users\Saphy\Downloads\GrafKode\Graph\obj\Release\Graph.exe
+C:\Users\Saphy\Downloads\GrafKode\Graph\obj\Release\Graph.pdb
+C:\Users\Saphy\Downloads\GrafKode\Graph\obj\Release\Graph.csprojAssemblyReference.cache

@@ -1,0 +1,4 @@
+Vi tager fra højre til venste, vender 2, putter den højeste til højre og laveste til venstre.
+Fortsætter til vi når helt ned i venstre ende, indtil laveste er helt til venstre.
+Starter vi forfra indtil de er sorteret fra venstre til højre i stigende tal.
+Og vi får den til at huske det sidst laveste tal.

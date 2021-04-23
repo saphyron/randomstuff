@@ -1,0 +1,9 @@
+C:\Users\Kenneth Andersen\CloudStation\Dropbox(Dania)\Datamatiker\Eksamen\Eksamen vinter 2016\Programmering\Bruges til eksamen\Algoritmer\PA06\PA06Kode\Graph\bin\Debug\Graph.exe.config
+C:\Users\palle\Dropbox (Dania Academy)\Datamatiker\Eksamen\Eksamen vinter 2016\Programmering\Bruges til eksamen\Algoritmer\PA06\PA06Kode\Graph\bin\Debug\Graph.exe.config
+C:\Users\Saphy\Downloads\GrafKode\Graph\bin\Debug\Graph.exe.config
+C:\Users\Saphy\Downloads\GrafKode\Graph\bin\Debug\Graph.exe
+C:\Users\Saphy\Downloads\GrafKode\Graph\bin\Debug\Graph.pdb
+C:\Users\Saphy\Downloads\GrafKode\Graph\obj\Debug\Graph.csprojAssemblyReference.cache
+C:\Users\Saphy\Downloads\GrafKode\Graph\obj\Debug\Graph.csproj.CoreCompileInputs.cache
+C:\Users\Saphy\Downloads\GrafKode\Graph\obj\Debug\Graph.exe
+C:\Users\Saphy\Downloads\GrafKode\Graph\obj\Debug\Graph.pdb

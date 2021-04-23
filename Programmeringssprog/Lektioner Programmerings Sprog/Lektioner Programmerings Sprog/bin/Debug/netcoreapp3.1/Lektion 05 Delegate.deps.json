@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Lektion 05 Delegate/1.0.0": {
+        "runtime": {
+          "Lektion 05 Delegate.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lektion 05 Delegate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

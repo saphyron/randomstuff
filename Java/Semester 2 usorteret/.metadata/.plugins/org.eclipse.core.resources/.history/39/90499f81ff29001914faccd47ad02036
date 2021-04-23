@@ -1,0 +1,80 @@
+package model;
+
+/**
+ * Klasse der beskriver en ansat
+ *
+ * @author mad
+ *
+ */
+public class Employee {
+	/*
+	 * Attributter der beskriver den ansattes tilstand
+	 */
+	private String name;
+	private boolean trainee;
+	private int age;
+	private String fornavn;
+	private String efternavn;
+	
+	
+
+	/*
+	 * Constructor, når den ansatte oprettes, skal den have et navn. Ved
+	 * oprettelse er den ansatte en trainee
+	 */
+	public Employee(String fornavn, String efternavn, int age) {
+		this.name = this.fornavn + " " + this.efternavn;
+		trainee = true;
+		this.age = age;
+	}
+
+	/*
+	 * Den ansattes navn kan ændres ved kald af setName metoden
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	/*
+	 * Man kan få oplyst den ansattes navn, ved at kalde metoden getName
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/*
+	 * Den ansatte kan få ændret trainee status ved at kalde metoden setTrainess
+	 */
+	public void setTrainee(boolean trainee) {
+		this.trainee = trainee;
+	}
+
+	/*
+	 * Man kan få oplyst den ansatte er trainess aktivitet, ved at kalde metoden
+	 * isTrainee
+	 */
+	public boolean isTrainee() {
+		return trainee;
+	}
+
+	public void printEmployee() {
+		System.out.println("*******************");
+		System.out.println("Name " + name);
+		System.out.println("Trainee " + trainee);
+		System.out.println("Age " + age);
+		System.out.println();
+	}
+	
+	public int getAge() {
+		return age;
+	}
+	
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	public void birthday() {
+		age = age + 1;
+	}
+	
+}

@@ -1,0 +1,33 @@
+package resturant;
+
+public class LavBestilling {
+	
+	private int klarTilLavning = 0;
+	private int lavet = 0;
+	
+	public synchronized int naesteBestilling(int bestillingID) {
+		klarTilLavning++;
+		System.out.println("Kok " + bestillingID + " laver bestilling " + klarTilLavning);
+		notify();
+		return klarTilLavning;
+	}
+	
+	public synchronized int bestillingLavet() {
+		try {
+			if (klarTilLavning <= lavet) {
+				System.out.println(" bestilling er på vej til kok ");
+				try {
+					wait();
+				}
+				catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		} finally {
+			lavet++;
+			System.out.println(" Kokken har lavet bestilling: " + lavet);
+		}
+		return lavet;
+	}
+
+}

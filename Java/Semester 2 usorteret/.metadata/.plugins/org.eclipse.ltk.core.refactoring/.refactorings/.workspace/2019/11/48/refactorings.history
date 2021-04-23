@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DAOS_Obligatorisk_Opgave_Concurrency&apos; to &apos;DAOS_Concurrency&apos;" description="Rename resource &apos;DAOS_Obligatorisk_Opgave_Concurrency&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/DAOS_Obligatorisk_Opgave_Concurrency" name="DAOS_Concurrency" stamp="1574668874399" updateReferences="true"/>
+</session>

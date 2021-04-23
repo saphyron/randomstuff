@@ -1,0 +1,13 @@
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 04 - Dijkstra\bin\Debug\netcoreapp3.1\Uge 04 - Dijkstra.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 04 - Dijkstra\bin\Debug\netcoreapp3.1\Uge 04 - Dijkstra.deps.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 04 - Dijkstra\bin\Debug\netcoreapp3.1\Uge 04 - Dijkstra.runtimeconfig.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 04 - Dijkstra\bin\Debug\netcoreapp3.1\Uge 04 - Dijkstra.runtimeconfig.dev.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 04 - Dijkstra\bin\Debug\netcoreapp3.1\Uge 04 - Dijkstra.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 04 - Dijkstra\bin\Debug\netcoreapp3.1\Uge 04 - Dijkstra.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 04 - Dijkstra\obj\Debug\netcoreapp3.1\Uge 04 - Dijkstra.csprojAssemblyReference.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 04 - Dijkstra\obj\Debug\netcoreapp3.1\Uge 04 - Dijkstra.AssemblyInfoInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 04 - Dijkstra\obj\Debug\netcoreapp3.1\Uge 04 - Dijkstra.AssemblyInfo.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 04 - Dijkstra\obj\Debug\netcoreapp3.1\Uge 04 - Dijkstra.csproj.CoreCompileInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 04 - Dijkstra\obj\Debug\netcoreapp3.1\Uge 04 - Dijkstra.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 04 - Dijkstra\obj\Debug\netcoreapp3.1\Uge 04 - Dijkstra.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 04 - Dijkstra\obj\Debug\netcoreapp3.1\Uge 04 - Dijkstra.genruntimeconfig.cache

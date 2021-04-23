@@ -1,0 +1,13 @@
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Opgave 6\bin\Debug\netcoreapp3.1\Uge 05 - Opgave 6.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Opgave 6\bin\Debug\netcoreapp3.1\Uge 05 - Opgave 6.deps.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Opgave 6\bin\Debug\netcoreapp3.1\Uge 05 - Opgave 6.runtimeconfig.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Opgave 6\bin\Debug\netcoreapp3.1\Uge 05 - Opgave 6.runtimeconfig.dev.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Opgave 6\bin\Debug\netcoreapp3.1\Uge 05 - Opgave 6.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Opgave 6\bin\Debug\netcoreapp3.1\Uge 05 - Opgave 6.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Opgave 6\obj\Debug\netcoreapp3.1\Uge 05 - Opgave 6.csprojAssemblyReference.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Opgave 6\obj\Debug\netcoreapp3.1\Uge 05 - Opgave 6.AssemblyInfoInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Opgave 6\obj\Debug\netcoreapp3.1\Uge 05 - Opgave 6.AssemblyInfo.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Opgave 6\obj\Debug\netcoreapp3.1\Uge 05 - Opgave 6.csproj.CoreCompileInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Opgave 6\obj\Debug\netcoreapp3.1\Uge 05 - Opgave 6.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Opgave 6\obj\Debug\netcoreapp3.1\Uge 05 - Opgave 6.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Opgave 6\obj\Debug\netcoreapp3.1\Uge 05 - Opgave 6.genruntimeconfig.cache

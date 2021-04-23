@@ -1,0 +1,8 @@
+1572248160742	Delete element
+1572259643590	Rename field 'chbIsStudent'
+1572259651226	Rename field 'chbisErhverv'
+1572429809659	Rename field 'rundvisninger'
+1572431288534	Rename method 'opretNyRundvisning'
+1572431300583	Rename method 'opretOgOpretNyRundvisning'
+1572438552524	Rename type 'OpretPrisPane'
+1572510048024	Rename method 'printReserveringsInfo'

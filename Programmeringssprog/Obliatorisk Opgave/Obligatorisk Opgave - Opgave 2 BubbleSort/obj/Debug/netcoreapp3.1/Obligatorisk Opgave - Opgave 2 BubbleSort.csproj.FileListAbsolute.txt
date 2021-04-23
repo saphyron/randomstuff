@@ -1,0 +1,13 @@
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obligatorisk Opgave - Opgave 2 BubbleSort\bin\Debug\netcoreapp3.1\Obligatorisk Opgave - Opgave 2 BubbleSort.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obligatorisk Opgave - Opgave 2 BubbleSort\bin\Debug\netcoreapp3.1\Obligatorisk Opgave - Opgave 2 BubbleSort.deps.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obligatorisk Opgave - Opgave 2 BubbleSort\bin\Debug\netcoreapp3.1\Obligatorisk Opgave - Opgave 2 BubbleSort.runtimeconfig.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obligatorisk Opgave - Opgave 2 BubbleSort\bin\Debug\netcoreapp3.1\Obligatorisk Opgave - Opgave 2 BubbleSort.runtimeconfig.dev.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obligatorisk Opgave - Opgave 2 BubbleSort\bin\Debug\netcoreapp3.1\Obligatorisk Opgave - Opgave 2 BubbleSort.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obligatorisk Opgave - Opgave 2 BubbleSort\bin\Debug\netcoreapp3.1\Obligatorisk Opgave - Opgave 2 BubbleSort.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obligatorisk Opgave - Opgave 2 BubbleSort\obj\Debug\netcoreapp3.1\Obligatorisk Opgave - Opgave 2 BubbleSort.csprojAssemblyReference.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obligatorisk Opgave - Opgave 2 BubbleSort\obj\Debug\netcoreapp3.1\Obligatorisk Opgave - Opgave 2 BubbleSort.AssemblyInfoInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obligatorisk Opgave - Opgave 2 BubbleSort\obj\Debug\netcoreapp3.1\Obligatorisk Opgave - Opgave 2 BubbleSort.AssemblyInfo.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obligatorisk Opgave - Opgave 2 BubbleSort\obj\Debug\netcoreapp3.1\Obligatorisk Opgave - Opgave 2 BubbleSort.csproj.CoreCompileInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obligatorisk Opgave - Opgave 2 BubbleSort\obj\Debug\netcoreapp3.1\Obligatorisk Opgave - Opgave 2 BubbleSort.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obligatorisk Opgave - Opgave 2 BubbleSort\obj\Debug\netcoreapp3.1\Obligatorisk Opgave - Opgave 2 BubbleSort.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obligatorisk Opgave - Opgave 2 BubbleSort\obj\Debug\netcoreapp3.1\Obligatorisk Opgave - Opgave 2 BubbleSort.genruntimeconfig.cache

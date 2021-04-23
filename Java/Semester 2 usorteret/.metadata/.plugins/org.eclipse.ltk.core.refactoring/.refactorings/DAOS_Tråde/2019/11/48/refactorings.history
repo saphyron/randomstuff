@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;eksStud&apos; to &apos;DAOS_Concurrency/src&apos;&#x0D;&#x0A;- Original project: &apos;DAOS_Tråde&apos;&#x0D;&#x0A;- Destination element: &apos;DAOS_Concurrency/src&apos;&#x0D;&#x0A;- Original element: &apos;DAOS_Tråde/src/eksStud&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=DAOS_Concurrency/src" element1="/src&lt;eksStud" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1574680495282" version="1.0"/>
+</session>

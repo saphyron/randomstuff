@@ -1,0 +1,12 @@
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\bin\Debug\netcoreapp3.1\Lektion 05 Delegate.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\bin\Debug\netcoreapp3.1\Lektion 05 Delegate.deps.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\bin\Debug\netcoreapp3.1\Lektion 05 Delegate.runtimeconfig.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\bin\Debug\netcoreapp3.1\Lektion 05 Delegate.runtimeconfig.dev.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\bin\Debug\netcoreapp3.1\Lektion 05 Delegate.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\bin\Debug\netcoreapp3.1\Lektion 05 Delegate.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\obj\Debug\netcoreapp3.1\Lektion 05 Delegate.AssemblyInfoInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\obj\Debug\netcoreapp3.1\Lektion 05 Delegate.AssemblyInfo.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\obj\Debug\netcoreapp3.1\Lektion 05 Delegate.csproj.CoreCompileInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\obj\Debug\netcoreapp3.1\Lektion 05 Delegate.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\obj\Debug\netcoreapp3.1\Lektion 05 Delegate.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Lektioner Programmerings Sprog\Lektioner Programmerings Sprog\obj\Debug\netcoreapp3.1\Lektion 05 Delegate.genruntimeconfig.cache

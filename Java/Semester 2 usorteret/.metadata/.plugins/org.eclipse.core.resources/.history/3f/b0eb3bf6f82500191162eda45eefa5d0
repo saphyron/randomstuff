@@ -1,0 +1,11 @@
+// Author John Grandt Markvard Høeg
+package model.model;
+
+public class demoapp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("It is working!");
+	}
+
+}

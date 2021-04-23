@@ -1,0 +1,25 @@
+package resturant;
+
+public class Kok extends Thread{
+	
+	private static int bestillingID = 1;
+	private int id;
+	private LavBestilling bestilling;
+	private String navn;
+	
+	public Kok(LavBestilling lb, String navn) {
+		id = ++bestillingID;
+		bestilling = lb;
+	}
+	
+	public void run() {
+		try {
+			sleep((int)(Math.random() * 1500));
+			bestilling.naesteBestilling(id);
+		}
+		catch (InterruptedException e) {
+			System.out.println("Exception: " + e.getMessage());
+		}
+	}
+
+}

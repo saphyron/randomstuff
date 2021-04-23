@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 7 elements from project &apos;test_import&apos;&#x0D;&#x0A;- Original project: &apos;test_import&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     test_import/src/application&#x0D;&#x0A;     test_import/src/controller&#x0D;&#x0A;     test_import/src/elaboration&#x0D;&#x0A;     test_import/src/gui&#x0D;&#x0A;     test_import/src/junit&#x0D;&#x0A;     test_import/src/storage&#x0D;&#x0A;     META-INF" description="Delete elements" element1="src/META-INF" element2="/src&lt;storage" element3="/src&lt;junit" element4="/src&lt;gui" element5="/src&lt;elaboration" element6="/src&lt;controller" element7="/src&lt;application" elements="6" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1574684455230" subPackages="false" version="1.0"/>
+</session>

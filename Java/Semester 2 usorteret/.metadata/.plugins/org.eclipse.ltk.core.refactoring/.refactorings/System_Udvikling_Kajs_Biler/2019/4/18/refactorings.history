@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;hbxButtons&apos; in &apos;gui.MainApp.initContent(...)&apos; to &apos;hbxButtonsBiler&apos;&#x0D;&#x0A;- Original project: &apos;System_Udvikling_Kajs_Biler&apos;&#x0D;&#x0A;- Original element: &apos;gui.MainApp.initContent(GridPane).hbxButtons&apos;&#x0D;&#x0A;- Renamed element: &apos;hbxButtons&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;hbxButtons&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;gui{MainApp.java[MainApp~initContent~QGridPane;@hbxButtons!3307!3337!3312!3321!QHBox;!0!false" name="hbxButtonsBiler" references="true" stamp="1556624650443" version="1.0"/>
+</session>

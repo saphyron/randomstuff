@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="95" key="DIALOG_X_ORIGIN"/>
+		<item value="173" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="-1" key="dialogHeight"/>
+		<item value="-1" key="dialogWidth"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.jdt.internal.ui.jarpackager.JarPackageWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.import.ZipFile" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\Saphy\Downloads\KAS gui john.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Enumeration.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Architecture1stsemester.jar"/>
+			<item value="C:\Users\Saphy\Downloads\ConnectionBin.jar"/>
+			<item value="C:\Users\Saphy\Downloads\swimmeropg.jar"/>
+			<item value="C:\Users\Saphy\Downloads\ConnectionUni.jar"/>
+			<item value="C:\Users\Saphy\Downloads\YatzyStudent.jar"/>
+			<item value="C:\Users\Saphy\Downloads\TestDate.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Flight.jar"/>
+			<item value="C:\Users\Saphy\Desktop\Afleveringsopgave 2 John Høeg.jar"/>
+			<item value="C:\Users\Saphy\Downloads\GUIDemo2.jar"/>
+			<item value="C:\Users\Saphy\Downloads\GUIDemo.jar"/>
+			<item value="C:\Users\Saphy\Downloads\aflevering19V.jar"/>
+			<item value="C:\Users\Saphy\Downloads\arraysDobbel.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Ex2.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Person.jar"/>
+			<item value="C:\Users\Saphy\Downloads\arrays.jar"/>
+			<item value="C:\Users\Saphy\OneDrive - EFIF\Desktop\Programmering\Lektion9\for_loekker.jar"/>
+			<item value="C:\Users\Saphy\OneDrive - EFIF\Desktop\Programmering\Projekt_Februar_dicegames2.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Projekt1_AlgoritmerStudent_2019.jar"/>
+		</list>
+	</section>
+</section>

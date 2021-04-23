@@ -1,0 +1,13 @@
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Threads\bin\Debug\netcoreapp3.1\Uge 05 - Threads.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Threads\bin\Debug\netcoreapp3.1\Uge 05 - Threads.deps.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Threads\bin\Debug\netcoreapp3.1\Uge 05 - Threads.runtimeconfig.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Threads\bin\Debug\netcoreapp3.1\Uge 05 - Threads.runtimeconfig.dev.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Threads\bin\Debug\netcoreapp3.1\Uge 05 - Threads.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Threads\bin\Debug\netcoreapp3.1\Uge 05 - Threads.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Threads\obj\Debug\netcoreapp3.1\Uge 05 - Threads.csprojAssemblyReference.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Threads\obj\Debug\netcoreapp3.1\Uge 05 - Threads.AssemblyInfoInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Threads\obj\Debug\netcoreapp3.1\Uge 05 - Threads.AssemblyInfo.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Threads\obj\Debug\netcoreapp3.1\Uge 05 - Threads.csproj.CoreCompileInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Threads\obj\Debug\netcoreapp3.1\Uge 05 - Threads.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Threads\obj\Debug\netcoreapp3.1\Uge 05 - Threads.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\ProgrammeringsSprog\Uge 05 - Threads\obj\Debug\netcoreapp3.1\Uge 05 - Threads.genruntimeconfig.cache

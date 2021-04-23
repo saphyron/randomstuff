@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="103" key="DIALOG_X_ORIGIN"/>
+		<item value="230" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="-1" key="dialogHeight"/>
+		<item value="-1" key="dialogWidth"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.jdt.ui.java/org.eclipse.jdt.junit"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.jdt.internal.ui.jarpackager.JarPackageWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.import.ZipFile" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\Saphy\OneDrive - EFIF\Bryghus aflevering\Aarhus Bryghus.jar"/>
+			<item value="C:\Users\Saphy\OneDrive\Desktop\John_Hoeeg_19V_Semester1_proeve_juli_2019.jar"/>
+			<item value="C:\Users\Saphy\Downloads\lektion_34_-_fletninger.jar"/>
+			<item value="C:\Users\Saphy\Downloads\filer.jar"/>
+			<item value="C:\Users\Saphy\Downloads\word.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Customer.jar"/>
+			<item value="C:\Users\Saphy\Downloads\MeasureSort.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Sortering.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Soegning19V.jar"/>
+			<item value="C:\Users\Saphy\Downloads\ansatteEksStud.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Konference_2.0.jar"/>
+			<item value="C:\Users\Saphy\Downloads\OpretKonferenceWindow.jar"/>
+			<item value="C:\Users\Saphy\Downloads\KAS (1).jar"/>
+			<item value="C:\Users\Saphy\Downloads\Controller (1).jar"/>
+			<item value="C:\Users\Saphy\Downloads\Storage_2.0.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Controller_2.0.jar"/>
+			<item value="C:\Users\Saphy\Downloads\projekt3.jar"/>
+			<item value="C:\Users\Saphy\Downloads\Hotel.jar"/>
+			<item value="C:\Users\Saphy\Downloads\GUIHotel (1).jar"/>
+			<item value="C:\Users\Saphy\Downloads\GUIHotel.jar"/>
+		</list>
+	</section>
+</section>

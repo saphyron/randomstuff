@@ -1,0 +1,22 @@
+package resturant;
+
+public class Tjener1 extends Thread {
+
+	private LavBestilling bestilling;
+
+	public Tjener1(LavBestilling lb) {
+		bestilling = lb;
+	}
+
+	public void run() {
+		while (true) {
+			try {
+				sleep((int) (Math.random() * 1000));
+				bestilling.bestillingLavet();
+			} catch (InterruptedException e) {
+				System.out.println("Exception: " + e.getMessage());
+			}
+		}
+	}
+
+}

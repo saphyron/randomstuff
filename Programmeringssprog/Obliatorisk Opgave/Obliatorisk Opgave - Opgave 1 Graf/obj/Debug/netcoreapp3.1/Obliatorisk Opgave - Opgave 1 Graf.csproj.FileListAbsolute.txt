@@ -1,0 +1,13 @@
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obliatorisk Opgave - Opgave 1 Graf\bin\Debug\netcoreapp3.1\Obliatorisk Opgave - Opgave 1 Graf.exe
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obliatorisk Opgave - Opgave 1 Graf\bin\Debug\netcoreapp3.1\Obliatorisk Opgave - Opgave 1 Graf.deps.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obliatorisk Opgave - Opgave 1 Graf\bin\Debug\netcoreapp3.1\Obliatorisk Opgave - Opgave 1 Graf.runtimeconfig.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obliatorisk Opgave - Opgave 1 Graf\bin\Debug\netcoreapp3.1\Obliatorisk Opgave - Opgave 1 Graf.runtimeconfig.dev.json
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obliatorisk Opgave - Opgave 1 Graf\bin\Debug\netcoreapp3.1\Obliatorisk Opgave - Opgave 1 Graf.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obliatorisk Opgave - Opgave 1 Graf\bin\Debug\netcoreapp3.1\Obliatorisk Opgave - Opgave 1 Graf.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obliatorisk Opgave - Opgave 1 Graf\obj\Debug\netcoreapp3.1\Obliatorisk Opgave - Opgave 1 Graf.csprojAssemblyReference.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obliatorisk Opgave - Opgave 1 Graf\obj\Debug\netcoreapp3.1\Obliatorisk Opgave - Opgave 1 Graf.AssemblyInfoInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obliatorisk Opgave - Opgave 1 Graf\obj\Debug\netcoreapp3.1\Obliatorisk Opgave - Opgave 1 Graf.AssemblyInfo.cs
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obliatorisk Opgave - Opgave 1 Graf\obj\Debug\netcoreapp3.1\Obliatorisk Opgave - Opgave 1 Graf.csproj.CoreCompileInputs.cache
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obliatorisk Opgave - Opgave 1 Graf\obj\Debug\netcoreapp3.1\Obliatorisk Opgave - Opgave 1 Graf.dll
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obliatorisk Opgave - Opgave 1 Graf\obj\Debug\netcoreapp3.1\Obliatorisk Opgave - Opgave 1 Graf.pdb
+C:\Users\Saphy\OneDrive\Desktop\Desktop\ProgrammeringsSprog\Obliatorisk Opgave\Obliatorisk Opgave - Opgave 1 Graf\obj\Debug\netcoreapp3.1\Obliatorisk Opgave - Opgave 1 Graf.genruntimeconfig.cache
